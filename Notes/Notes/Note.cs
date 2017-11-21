@@ -11,6 +11,12 @@ namespace Notes
         public string Author { get; set; }
         public string NoteText { get; set; }
         public DateTime ModificationDate { get; set; }
+
+        public Note ()
+        {
+            ModificationDate = DateTime.Now;
+
+        }
     }
 }
 
